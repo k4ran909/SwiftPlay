@@ -1,0 +1,32 @@
+#include <windows.h>
+
+// Icon resource
+IDI_ICON1 ICON "swiftplay.ico"
+
+// Version information
+1 VERSIONINFO
+FILEVERSION 1,2,6,0
+PRODUCTVERSION 1,2,6,0
+FILEOS 0x40004
+FILETYPE 0x1
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040904B0"
+        {
+            VALUE "FileDescription", "SwiftPlay"
+            VALUE "InternalName", "SwiftPlay.exe"
+            VALUE "OriginalFilename", "SwiftPlay.exe"
+            VALUE "CompanyName", "cafali"
+            VALUE "LegalCopyright", "Copyright \xA9 2025 cafali - MIT License"
+            VALUE "ProductName", "SwiftPlay"
+            VALUE "FileVersion", "1.2.6.0"
+            VALUE "ProductVersion", "1.2.6.0"
+        }
+    }
+
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0409, 0x04B0
+    }
+}
